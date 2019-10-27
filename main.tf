@@ -25,8 +25,8 @@ resource "azurerm_kubernetes_cluster" "aks" {
   dns_prefix          = "${local.cluster_name}"
  
   service_principal {
-  client_id           = "c7ce3cab-bdcc-4b0c-ba3b-76db16bcb6f5"
-  client_secret       = "3515761b-6fd8-4916-a988-f242cc3e551c"
+  client_id           = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  client_secret       = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
   }
 
   linux_profile {
